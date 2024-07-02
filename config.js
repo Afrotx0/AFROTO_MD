@@ -11,34 +11,34 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['201067999523', '👑 AFROTO - ALDGAL 👑', true],
+  ['212601064446', '👑 AFROTO - ALDGAL 👑', true],
   ['201556239296', '💫 BLACK - CAT  💫', true],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['20106799523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'], 
-  ['201067999523'],  
+  ['212601064446'],  
   ['201556239296'],
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296'],
-  ['201067999523'], 
+  ['212601064446'], 
   ['201556239296'], 
-  ['201067999523'],
+  ['212601064446'],
   ['201556239296']
 ];
 
-global.suittag = ['201067999523'];
-global.prems = ['201067999523'];
+global.suittag = ['212601064446'];
+global.prems = ['212601064446'];
 
 global.packname = 'Sticker';
 global.author = 'The Mystic - Bot';
@@ -78,7 +78,7 @@ global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '201067999523';
+global.nomorown = '212601064446';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -93,8 +93,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('Egypt/lexandria').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('Egypt/Alexandria').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
