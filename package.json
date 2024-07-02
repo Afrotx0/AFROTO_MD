@@ -96,6 +96,7 @@
     "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
   },
   "devDependencies": {
+    "canvas": "^2.9.3",
     "eslint": "^8.45.0",
     "eslint-config-google": "^0.14.0"
   }
