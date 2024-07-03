@@ -900,7 +900,7 @@ export async function handler(chatUpdate) {
           wolflastfeed: 0,
           wood: 0,
           wortel: 0,
-          language: 'es',
+          language: 'ar',
         };
       }
       const akinator = global.db.data.users[m.sender].akinator;
@@ -986,7 +986,8 @@ export async function handler(chatUpdate) {
           simi: false,
           game: true,
           expired: 0,
-          language: ar,};
+          language: 'ar',
+          ,};
       }
       const settings = global.db.data.settings[this.user.jid];
       if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {};
@@ -998,7 +999,7 @@ export async function handler(chatUpdate) {
         if (!('antiCall' in settings)) settings.antiCall = false;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
         if (!('modejadibot' in settings)) settings.modejadibot = true;
-        if (!('antispam' in settings)) settings.antispam = false;
+        if (!('antispam' in settings)) settings.antispam = true;
         if (!('audios_bot' in settings)) settings.audios_bot = true;
         if (!('modoia' in settings)) settings.modoia = false;
       } else {
@@ -1010,7 +1011,7 @@ export async function handler(chatUpdate) {
           antiCall: false,
           antiPrivate: false,
           modejadibot: true,
-          antispam: false,
+          antispam: true,
           audios_bot: true,
           modoia: false
         };
