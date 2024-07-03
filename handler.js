@@ -935,7 +935,7 @@ export async function handler(chatUpdate) {
         global.db.data.chats[m.chat] = {};
       }
       if (chat) {
-        if (!('language' in chat)) chat.language = 'es';
+        if (!('language' in chat)) chat.language = 'ar';
         if (!('isBanned' in chat)) chat.isBanned = false;
         if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
@@ -944,12 +944,12 @@ export async function handler(chatUpdate) {
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
         if (!('sDemote' in chat)) chat.sDemote = '';
-        if (!('delete' in chat)) chat.antidelete = false;
+        if (!('delete' in chat)) chat.antidelete = true;
         if (!('modohorny' in chat)) chat.modohorny = false;
         if (!('autosticker' in chat)) chat.autosticker = false;
-        if (!('audios' in chat)) chat.audios = false;
-        if (!('antiLink' in chat)) chat.antiLink = false;
-        if (!('antiLink2' in chat)) chat.antiLink2 = false;
+        if (!('audios' in chat)) chat.audios = true;
+        if (!('antiLink' in chat)) chat.antiLink = true;
+        if (!('antiLink2' in chat)) chat.antiLink2 = true;
         if (!('antiviewonce' in chat)) chat.antiviewonce = false;
         if (!('antiToxic' in chat)) chat.antiToxic = false;
         if (!('antiTraba' in chat)) chat.antiTraba = false;
@@ -974,8 +974,8 @@ export async function handler(chatUpdate) {
           modohorny: true,
           autosticker: false,
           audios: true,
-          antiLink: false,
-          antiLink2: false,
+          antiLink: true,
+          antiLink2: true,
           antiviewonce: false,
           antiToxic: false,
           antiTraba: false,
@@ -986,8 +986,7 @@ export async function handler(chatUpdate) {
           simi: false,
           game: true,
           expired: 0,
-          language: 'es',
-        };
+          language: ar,};
       }
       const settings = global.db.data.settings[this.user.jid];
       if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {};
@@ -995,7 +994,7 @@ export async function handler(chatUpdate) {
         if (!('self' in settings)) settings.self = false;
         if (!('autoread' in settings)) settings.autoread = false;
         if (!('autoread2' in settings)) settings.autoread2 = false;
-        if (!('restrict' in settings)) settings.restrict = false;
+        if (!('restrict' in settings)) settings.restrict = true;
         if (!('antiCall' in settings)) settings.antiCall = false;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
         if (!('modejadibot' in settings)) settings.modejadibot = true;
@@ -1007,7 +1006,7 @@ export async function handler(chatUpdate) {
           self: false,
           autoread: false,
           autoread2: false,
-          restrict: false,
+          restrict: true,
           antiCall: false,
           antiPrivate: false,
           modejadibot: true,
