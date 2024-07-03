@@ -900,7 +900,7 @@ export async function handler(chatUpdate) {
           wolflastfeed: 0,
           wood: 0,
           wortel: 0,
-          language: 'ar',
+          language: 'es',
         };
       }
       const akinator = global.db.data.users[m.sender].akinator;
@@ -935,7 +935,7 @@ export async function handler(chatUpdate) {
         global.db.data.chats[m.chat] = {};
       }
       if (chat) {
-        if (!('language' in chat)) chat.language = 'ar';
+        if (!('language' in chat)) chat.language = 'es';
         if (!('isBanned' in chat)) chat.isBanned = false;
         if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
@@ -944,12 +944,12 @@ export async function handler(chatUpdate) {
         if (!('sBye' in chat)) chat.sBye = '';
         if (!('sPromote' in chat)) chat.sPromote = '';
         if (!('sDemote' in chat)) chat.sDemote = '';
-        if (!('delete' in chat)) chat.antidelete = true;
+        if (!('delete' in chat)) chat.antidelete = false;
         if (!('modohorny' in chat)) chat.modohorny = false;
         if (!('autosticker' in chat)) chat.autosticker = false;
-        if (!('audios' in chat)) chat.audios = true;
-        if (!('antiLink' in chat)) chat.antiLink = true;
-        if (!('antiLink2' in chat)) chat.antiLink2 = true;
+        if (!('audios' in chat)) chat.audios = false;
+        if (!('antiLink' in chat)) chat.antiLink = false;
+        if (!('antiLink2' in chat)) chat.antiLink2 = false;
         if (!('antiviewonce' in chat)) chat.antiviewonce = false;
         if (!('antiToxic' in chat)) chat.antiToxic = false;
         if (!('antiTraba' in chat)) chat.antiTraba = false;
@@ -974,8 +974,8 @@ export async function handler(chatUpdate) {
           modohorny: true,
           autosticker: false,
           audios: true,
-          antiLink: true,
-          antiLink2: true,
+          antiLink: false,
+          antiLink2: false,
           antiviewonce: false,
           antiToxic: false,
           antiTraba: false,
@@ -986,8 +986,8 @@ export async function handler(chatUpdate) {
           simi: false,
           game: true,
           expired: 0,
-          language: 'ar',
-          ,};
+          language: 'es',
+        };
       }
       const settings = global.db.data.settings[this.user.jid];
       if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {};
@@ -995,11 +995,11 @@ export async function handler(chatUpdate) {
         if (!('self' in settings)) settings.self = false;
         if (!('autoread' in settings)) settings.autoread = false;
         if (!('autoread2' in settings)) settings.autoread2 = false;
-        if (!('restrict' in settings)) settings.restrict = true;
+        if (!('restrict' in settings)) settings.restrict = false;
         if (!('antiCall' in settings)) settings.antiCall = false;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
         if (!('modejadibot' in settings)) settings.modejadibot = true;
-        if (!('antispam' in settings)) settings.antispam = true;
+        if (!('antispam' in settings)) settings.antispam = false;
         if (!('audios_bot' in settings)) settings.audios_bot = true;
         if (!('modoia' in settings)) settings.modoia = false;
       } else {
@@ -1007,11 +1007,11 @@ export async function handler(chatUpdate) {
           self: false,
           autoread: false,
           autoread2: false,
-          restrict: true,
+          restrict: false,
           antiCall: false,
           antiPrivate: false,
           modejadibot: true,
-          antispam: true,
+          antispam: false,
           audios_bot: true,
           modoia: false
         };
