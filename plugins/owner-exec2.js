@@ -24,4 +24,4 @@ const handler = async (m, {conn, isOwner, command, text, usedPrefix, args, isROw
 };
 handler.customPrefix = /^[$]/;
 handler.command = new RegExp;
-export default handler;
+/*export default handler;
