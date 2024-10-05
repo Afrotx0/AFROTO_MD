@@ -11,34 +11,34 @@ global.botnumber = "201067999523"
 global.confirmCode = ""
 
 global.owner = [
-  ['212601064446', '👑 AFROTO - ALDGAL 👑', true],
+  ['201067999523', '👑 AFROTO - ALDGAL 👑', true],
   ['201556239296', '💫 BLACK - CAT  💫', true],
-  ['212601064446'],
+  ['9647858519492'],
   ['201556239296'],
-  ['212601064446'],
+  ['255615673255'],
   ['201556239296'],
-  ['212601064446'],
+  ['201067999523'],
   ['201556239296'],
-  ['212601064446'],
+  ['9647858519492'],
   ['201556239296'],
-  ['212601064446'],
+  ['255615673255'],
   ['201556239296'],
-  ['212601064446'],
+  ['201067999523'],
   ['201556239296'],
-  ['212601064446'],
+  ['9647858519492'],
   ['201556239296'], 
-  ['212601064446'],  
+  ['255615673255'],  
   ['201556239296'],
-  ['212601064446'],
+  ['201067999523'],
   ['201556239296'],
-  ['212601064446'], 
+  ['9647858519492'], 
   ['201556239296'], 
-  ['212601064446'],
+  ['255615673255'],
   ['201556239296']
 ];
 
-global.suittag = ['212601064446'];
-global.prems = ['212601064446'];
+global.suittag = ['9647858519492'];
+global.prems = ['201067999523'];
 
 global.packname = 'Sticker';
 global.author = 'The Mystic - Bot';
@@ -78,7 +78,7 @@ global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '212601064446';
+global.nomorown = '9647858519492';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
